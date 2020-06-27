@@ -1,0 +1,6 @@
+parent repo for Cheeky's calendar
+
+Includes:
+ - submodules for all relevant repos (server, web client, mobile client)
+ - scripts for ease of development/deployment
+ - general notes
