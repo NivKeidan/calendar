@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/NivKeidan/calendar-server.git
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/NivKeidan/svelte-native.git
