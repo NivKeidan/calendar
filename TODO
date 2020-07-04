@@ -8,9 +8,10 @@ client: sort the day-passing but data not updating issue
 server: cache reading of creds file
 feature: add clicakble links
 server: add proper logging (/var/log/calendar) but add symlink from folder (Winston package) (replace outputs and console logs to logger)
-server: add proper backup mechanism with rotation and all that is required
+server: add proper backup mechanism with rotation and all that is required`
+mobile: optimize load speed and swipe reaction speed
 server + clients: improve client authentication - not send creds on every request?
-server: add brute force protection for authentication
+server: add brute force protection for authentication (per user and per ip)
 feature: notifications for entries (through app? google calendar?)
 client: add undo for web app
 feature: host an example calendar on the server?
