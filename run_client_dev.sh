@@ -11,6 +11,6 @@ pushd client
 		cp dev.env .env
 	fi
 	trap remove_env_file EXIT
-	npm run dev
+	PORT=39387 npm run dev
 popd
 

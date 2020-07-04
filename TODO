@@ -1,20 +1,16 @@
-admin: create super repo with submodules tns scripts whatever
-admin: release version 1.0.0
-
-server: add daily backup of data
-server: add proper backup mechanism with rotation and all that is required
+server: let data_handler handle data timestamp
+client: show the error from server's responses
+server: add caching of data and timestamp to data handler
 server: make sure data cant be corrupted!
-client: make loading fucking faster. right away, get the local data
 client: when clicking to edit an entry, it is too high and everything around changes with the change
 client: 05443929 this is caught as date string
-server: add proper logging (/var/log/calendar) but add symlink from folder (Winston package)
-client: add links feature
+client: sort the day-passing but data not updating issue
 server: cache reading of creds file
-client: add undo for web app
-server + clients: integrate CSRF protection
+feature: add clicakble links
+server: add proper logging (/var/log/calendar) but add symlink from folder (Winston package) (replace outputs and console logs to logger)
+server: add proper backup mechanism with rotation and all that is required
 server + clients: improve client authentication - not send creds on every request?
 server: add brute force protection for authentication
 feature: notifications for entries (through app? google calendar?)
-
-to run mobile:
-- connect phone, validate with tns device and run the run server for mobile script
+client: add undo for web app
+feature: host an example calendar on the server?
