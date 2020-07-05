@@ -1,20 +1,18 @@
-admin: create super repo with submodules tns scripts whatever
-admin: release version 1.0.0
-
-server: add daily backup of data
 server: add proper backup mechanism with rotation and all that is required
-server: make sure data cant be corrupted!
-client: make loading fucking faster. right away, get the local data
+server: make API responses more accurate (status and message)
+
+client: show the error from server's responses
 client: when clicking to edit an entry, it is too high and everything around changes with the change
 client: 05443929 this is caught as date string
-server: add proper logging (/var/log/calendar) but add symlink from folder (Winston package)
-client: add links feature
-server: cache reading of creds file
-client: add undo for web app
-server + clients: integrate CSRF protection
-server + clients: improve client authentication - not send creds on every request?
-server: add brute force protection for authentication
-feature: notifications for entries (through app? google calendar?)
+client: sort the day-passing but data not updating issue
 
-to run mobile:
-- connect phone, validate with tns device and run the run server for mobile script
+feature: add clicakble links
+mobile: optimize load speed and swipe reaction speed
+server + clients: improve client authentication - not send creds on every request?
+server: add brute force protection for authentication (per user and per ip)
+feature: notifications for entries (through app? google calendar?)
+client: add undo for web app
+feature: host an example calendar on the server?
+
+UNSORTED:
+feature: consider serving the website and not locally
