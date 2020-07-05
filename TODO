@@ -1,4 +1,3 @@
-server: add proper logging (/var/log/calendar) but add symlink from folder (Winston package) (replace outputs and console logs to logger)
 server: add proper backup mechanism with rotation and all that is required
 server: make API responses more accurate (status and message)
 
