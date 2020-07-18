@@ -1,12 +1,8 @@
-server: add proper backup mechanism with rotation and all that is required
+BUG client: when today has more than one day info, timed ones have to go highers
+mobile: add clickable links
 server: make API responses more accurate (status and message)
-
 client: show the error from server's responses
-client: when clicking to edit an entry, it is too high and everything around changes with the change
-client: 05443929 this is caught as date string
-client: sort the day-passing but data not updating issue
 
-feature: add clicakble links
 mobile: optimize load speed and swipe reaction speed
 server + clients: improve client authentication - not send creds on every request?
 server: add brute force protection for authentication (per user and per ip)
@@ -14,5 +10,4 @@ feature: notifications for entries (through app? google calendar?)
 client: add undo for web app
 feature: host an example calendar on the server?
 
-UNSORTED:
 feature: consider serving the website and not locally

@@ -1,7 +1,7 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/NivKeidan/calendar-server.git
-	branch = release/v1.0.3
+	branch = release/v1.0.4
 [submodule "mobile"]
 	path = mobile
 	url = https://github.com/NivKeidan/svelte-native.git
@@ -9,4 +9,4 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/NivKeidan/svelte-tasklist.git
-	branch = release/v1.0.0
+	branch = release/v1.0.3
