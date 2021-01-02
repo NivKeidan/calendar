@@ -1,7 +1,5 @@
+add repeating events feature - add repeat to each entry object, client adds the next one upon deletion? or when date has arrived?
 add automation for cert renewal on server
-try to understand what was the issue in greece
-check out server logs  of backups, there is a bug there somewhere
-BUG client: when today has more than one day info, timed ones have to go highers - meaning, everything in today must have today's date (and keep previous time?)
 server: add backup of entries every day at same hour. keep backwards 3 months.
 mobile: add clickable links
 server: make API responses more accurate (status and message)
