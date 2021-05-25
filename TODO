@@ -1,10 +1,16 @@
-add repeating events feature:
+input highlights:
+- ! is not shown
+- add onclick event handler https://stackoverflow.com/questions/60610241/add-event-directive-to-svelte-html-expression
+- remove all unnecessary things from entry input
+repeating events feature:
  - enable editing of interval
  - pass interval into Entry objects (now it is hard coded as 2)
  - keep intervals as part of entry in server
  - add identification in input line. syntax: 'int[0-9]+'
 
-client: add a bit of space between date and time icons
+
+client: in today section, dragging up does not work, dragging to same one does something...
+client: add a bit of space between date and time icons and between interval and trashcan
 client: remove date and periodic icons in generic entries
 client: implement the coloring of identified dates/times/periods in proper colors INSIDE the text box
 client: make savings to server more efficient (accumulate requests)
