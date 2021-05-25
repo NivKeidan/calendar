@@ -1,13 +1,8 @@
-input highlights:
-- ! is not shown
-- add onclick event handler https://stackoverflow.com/questions/60610241/add-event-directive-to-svelte-html-expression
-- remove all unnecessary things from entry input
 repeating events feature:
  - enable editing of interval
  - pass interval into Entry objects (now it is hard coded as 2)
  - keep intervals as part of entry in server
  - add identification in input line. syntax: 'int[0-9]+'
-
 
 client: in today section, dragging up does not work, dragging to same one does something...
 client: add a bit of space between date and time icons and between interval and trashcan
@@ -17,6 +12,8 @@ client: make savings to server more efficient (accumulate requests)
 client bug: edit date on an entry and set a passed date. you get 2.2.22 set
 client: add border around each entry (this requires to finding a proper solution for the draggable spaces)
 client: when editing time/date the row gets more    t and everything below that row moves. this is ugly and not smooth.
+client: when selecting the the input text, things look weird
+client: when entering a very long entry, it goes down a line in a weird way
 deployment: add automation for cert renewal on server
 deployment: make server a service
 server: add backup of entries every day at same hour. keep backwards 3 months.
