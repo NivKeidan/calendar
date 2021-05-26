@@ -7,7 +7,10 @@ repeating events feature:
  - change how input is processed - "in 30 days" is not highlighted. keep date and time as string and not index + parse regex with DATE/TIME regexes and replaces
  - dont show period in general and future
  - add identification in input line. syntax: 'int[0-9]+'
+ - sort all names to periodic/period
 
+client: add better visualization for new entry (either show the entry fly to its place or highlight the entire section/line when entering)
+client: add better visualization when moving an entry (either drag the entry as a whole and insert it to place properly or fly in from origin to destination or something..)
 client: make cursor pointer on time, date and trashcan icons
 client: in today section, dragging up does not work, dragging to same one does something...
 client: add a bit of space between date and time icons and between interval and trashcan
