@@ -1,13 +1,17 @@
 repeating events feature:
- - enable editing of interval
- - pass interval into Entry objects (now it is hard coded as 2)
- - keep intervals as part of entry in server
+ - continue manual testing things
+ - changing interval in upcoming does not save
+ - when today is empty dragging area is very small
+ - if no interval or zero, when clicking enable editing. still show icon.
+ - entering zero or - removes periodic icon completely
+ - change how input is processed - "in 30 days" is not highlighted. keep date and time as string and not index + parse regex with DATE/TIME regexes and replaces
+ - dont show period in general and future
  - add identification in input line. syntax: 'int[0-9]+'
 
+client: make cursor pointer on time, date and trashcan icons
 client: in today section, dragging up does not work, dragging to same one does something...
 client: add a bit of space between date and time icons and between interval and trashcan
 client: remove date and periodic icons in generic entries
-client: implement the coloring of identified dates/times/periods in proper colors INSIDE the text box
 client: make savings to server more efficient (accumulate requests)
 client bug: edit date on an entry and set a passed date. you get 2.2.22 set
 client: add border around each entry (this requires to finding a proper solution for the draggable spaces)
