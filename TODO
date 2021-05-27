@@ -1,13 +1,9 @@
 repeating events feature:
  - continue manual testing things
- - changing interval in upcoming does not save
- - when today is empty dragging area is very small
- - if no interval or zero, when clicking enable editing. still show icon.
- - entering zero or - removes periodic icon completely
  - change how input is processed - "in 30 days" is not highlighted. keep date and time as string and not index + parse regex with DATE/TIME regexes and replaces
  - dont show period in general and future
  - add identification in input line. syntax: 'int[0-9]+'
- - sort all names to periodic/period
+ - change all namings to periodic/period
 
 client: add better visualization for new entry (either show the entry fly to its place or highlight the entire section/line when entering)
 client: add better visualization when moving an entry (either drag the entry as a whole and insert it to place properly or fly in from origin to destination or something..)
