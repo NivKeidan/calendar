@@ -1,10 +1,4 @@
-repeating events feature:
- - continue manual testing things
- - change how input is processed - "in 30 days" is not highlighted. keep date and time as string and not index + parse regex with DATE/TIME regexes and replaces
- - dont show period in general and future
- - add identification in input line. syntax: 'int[0-9]+'
- - change all namings to periodic/period
-
+client: remove date from general
 client: add better visualization for new entry (either show the entry fly to its place or highlight the entire section/line when entering)
 client: add better visualization when moving an entry (either drag the entry as a whole and insert it to place properly or fly in from origin to destination or something..)
 client: make cursor pointer on time, date and trashcan icons
