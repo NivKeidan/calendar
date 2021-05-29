@@ -1,20 +1,19 @@
-client: remove date from general
-client: add better visualization for new entry (either show the entry fly to its place or highlight the entire section/line when entering)
-client: add better visualization when moving an entry (either drag the entry as a whole and insert it to place properly or fly in from origin to destination or something..)
+client: refactor dragging entries with svelte-dnd-action
 client: make cursor pointer on time, date and trashcan icons
-client: in today section, dragging up does not work, dragging to same one does something...
-client: add a bit of space between date and time icons and between interval and trashcan
-client: remove date and periodic icons in generic entries
 client: make savings to server more efficient (accumulate requests)
 client bug: edit date on an entry and set a passed date. you get 2.2.22 set
 client: add border around each entry (this requires to finding a proper solution for the draggable spaces)
-client: when editing time/date the row gets more    t and everything below that row moves. this is ugly and not smooth.
-client: when selecting the the input text, things look weird
-client: when entering a very long entry, it goes down a line in a weird way
-deployment: add automation for cert renewal on server
+client: when editing time/date the row gets more height and everything below that row moves. this is ugly and not smooth.
 deployment: make server a service
-server: add backup of entries every day at same hour. keep backwards 3 months.
+client: add undo for web app
+
+deployment: serve the calendar website
+feature: add login and registration
 mobile: add clickable links
+deployment: add automation for cert renewal on server
+client: add better visualization for new entry (either show the entry fly to its place or highlight the entire section/line when entering)
+client: in today section, dragging up does not work, dragging to same one does something...
+server: add backup of entries every day at same hour. keep backwards 3 months.
 server: make API responses more accurate (status and message)
 client: show the error from server's responses
 client: add ability to see previous server logs
@@ -23,6 +22,3 @@ mobile: optimize load speed and swipe reaction speed
 server + clients: improve client authentication - not send creds on every request?
 server: add brute force protection for authentication (per user and per ip)
 feature: notifications for entries (through app? google calendar?)
-client: add undo for web app
-feature: host an example calendar on the server?
-feature: consider serving the website and not locally -> add login and registration
