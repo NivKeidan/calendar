@@ -1,5 +1,4 @@
 client: refactor dragging entries with svelte-dnd-action
-client: sort vuln warning when building (upgrade dependencies)
 client: make cursor pointer on time, date and trashcan icons
 client: make savings to server more efficient (accumulate requests)
 client bug: edit date on an entry and set a passed date. you get 2.2.22 set
